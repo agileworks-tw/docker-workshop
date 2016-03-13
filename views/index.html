@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>AgileWorks - Jenkins Workshop</title>
+    <title>AgileWorks - Docker Workshop</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -31,19 +31,19 @@
     <div id="home" class="container animated fadeIn" style="max-width:800px;margin-top:100px;">
       <div class="row">
         <div class="col-sm-4">
-          <img src="static/jenkins-logo.png" alt="cover" class="img-fluid" />
+          <img src="static/docker-logo.png" alt="cover" class="img-fluid" />
         </div>
         <div class="col-sm-8">
           <div class="promotion">
-            <h3>Jenkins Workshop</h3>
+            <h3>Docker Workshop</h3>
             {% if msg %}<p style="color:yellow">{{ msg }}</p>{% endif %}
-            <form action="http://api.agileworks.tw/login/auth" method="POST">
+            <form action="http://api.agileworks.tw/docker/login/auth" method="POST">
               <p>請輸入帳號（Email）：</p>
               <input type="email" name="email" class="form-control" placeholder="Email" /><br/>
               <p>請輸入密碼：</p>
               <input type="password" name="password" class="form-control" placeholder="Password" /><br/>
               <button class="btn btn-primary">開始上課</button>
-              <a href="http://api.agileworks.tw/signup" class="btn btn-link">註冊新帳號</a>
+              <a href="http://api.agileworks.tw/docker/signup" class="btn btn-link">註冊新帳號</a>
             </form>
           </div>
         </div>

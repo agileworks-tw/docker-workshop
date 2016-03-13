@@ -16,9 +16,10 @@ body::after {
   right: 0;
   position: absolute;
   z-index: -1;   
-  background-image: url(../cover-1.jpg);
   opacity: 0.5;
+  background-image: url(../cover-1.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 nav.navbar {
